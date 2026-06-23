@@ -1,0 +1,22 @@
+footer {
+  display: flex;
+  justify-content: center;
+  color: var(--white);
+  gap: 30px;
+  background: var(--primary);
+  padding: 10px;
+}
+
+ul {
+  display: flex;
+  gap: 20px;
+ 
+}
+
+li footer {
+  text-decoration: none;
+  justify-content: space-between;
+  font-weight: 700;
+  color: var(--white);
+  cursor: pointer;
+}

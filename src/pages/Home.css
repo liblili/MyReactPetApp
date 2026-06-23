@@ -1,0 +1,52 @@
+.home {
+  display: flex;
+  height: 100vh;
+}
+
+.image-section {
+  width: 66.66%;
+  background-image: url("/public/homedog.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.info-section {
+  width: 33.33%;
+  background-color: var(--primary);
+  padding: 40px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+ p {
+  color: var(--black);
+  display: flex;
+  justify-content: start;
+  margin: 20px;
+}
+
+button {
+  height: 44px;
+  width: 300px;
+}
+.howitworks-section{
+  color: var(--black);
+  margin: 30px;
+  padding: 30px;
+}
+
+
+ .ulwatisworks li {
+  margin-bottom:  30px;
+  
+
+}
+.ulwatisworks  {
+  text-align: left;
+  margin-left: 10%;
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding-top: 20px;
+}

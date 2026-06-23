@@ -1,0 +1,11 @@
+:root {
+  --primary: #5C7395;;
+  --secondary: #D9E3F4;
+  --black: #0A0A0A;
+  --white: #FDFCFC;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 500;
+}

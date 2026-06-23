@@ -1,0 +1,8 @@
+
+    .pets-list {
+    
+  display: flex;
+  flex-direction: row;
+  gap: 20px; /* расстояние между карточками */
+  flex-wrap: wrap; /* перенос на следующую строку при нехватке места */
+}
