@@ -1,6 +1,18 @@
+
+.hero{
+  
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2); /* пример */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 .home {
+  
   display: flex;
   height: 100vh;
+
+  position: relative;
 }
 
 .image-section {
@@ -50,3 +62,5 @@ button {
   list-style-type: none;
   padding-top: 20px;
 }
+
+

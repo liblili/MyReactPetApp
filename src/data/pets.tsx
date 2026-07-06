@@ -46,8 +46,9 @@ export const pets: Pet[] = [
     image: "/images/milo.jpg",
     description: "Blue-eyed Siamese cat. Lost near the train station.",
   },
-    {id : 5,   
-  name: "Cooki",
+  {
+    id: 5,
+    name: "Cooki",
     type: "cat",
     breed: "Siamese",
     city: "Zurich",
@@ -55,5 +56,16 @@ export const pets: Pet[] = [
     date: "2026-06-11",
     image: "/images/cooci.jpg",
     description: "Green-eyed cat. Lost near the train station.",
-  }
-  ];
+  },
+  {
+    id: 6,
+    name: "Kaki",
+    type: "cat",
+    breed: "Siamese",
+    city: "Zurich",
+    status: "lost",
+    date: "2026-06-11",
+    image: "/images/cooci.jpg",
+    description: "Green-eyed cat. Lost near the train station.",
+  },
+];

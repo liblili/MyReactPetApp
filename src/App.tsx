@@ -7,9 +7,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Contacts from "./pages/Contacts";
 
-import PetCard from "./components/PetСard";
-import { pets } from "./data/pets";
-import PetList from "./components/PetList";
+import Listing from "./pages/Listing";
 import PetDetails from "./pages/PetDetails";
 
 
@@ -20,17 +18,13 @@ function App() {
       <Menu />
 
       <Routes>
+       
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contacts" element={<Contacts />} />
-        <Route path="/" element={<PetList />} />
         <Route path="/pet/:id" element={<PetDetails />} />
+        <Route path="/listing" element={<Listing />} />
       </Routes>
-      <div className="pets-list">
-        {pets.map((pet) => (
-          <PetCard key={pet.id} pet={pet} />
-        ))}
-      </div>
 
       <Footer />
     </BrowserRouter>

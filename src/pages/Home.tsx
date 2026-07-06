@@ -1,20 +1,27 @@
+import PetList from "../components/PetList";
+import { pets } from "../data/pets";
 import "./Home.css";
+
+
 
 function Home() {
   return (
-    <div>
-      <div className="home">
-        <div className="info-section">
-          <h1>Animal Search</h1>
-          <p>
-            View listings of lost and found pets. Create a listing. Return a
-            pet.
-          </p>
+    <div >
+      <section className="hero">
+        
+        <div className="home">
+          <div className="info-section">
+            <h1>Animal Search</h1>
+            <p>
+              View listings of lost and found pets. Create a listing. Return a
+              pet.
+            </p>
 
-          <button>Go to Listings</button>
+            <button>Go to Listings</button>
+          </div>
+          <div className="image-section"></div>
         </div>
-        <div className="image-section"></div>
-      </div>
+      </section>
       <div className="howitworks-section">
         <h2>How it works ?</h2>
         <ul className="ulwatisworks">
@@ -31,6 +38,7 @@ function Home() {
           </li>
         </ul>
       </div>
+      <PetList pets={pets} />
     </div>
   );
 }
