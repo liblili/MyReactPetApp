@@ -46,7 +46,7 @@ line-height: 1.5;
     position: absolute;
     z-index: 1000;
     background: transparent;
-    height: 50%;
+  
    
    line-height: 1.5;
    
@@ -60,7 +60,7 @@ background-color: var(--primary);
 color: white;
 border: 1px white;
 margin:  0 10% ;
-width: 100%;
+width: 60%;
   }
 }
 .namofsite{
