@@ -1,6 +1,6 @@
 .menu {
   position: absolute; 
-
+ max-width: 100%;
   z-index: 100;
   background: transparent; 
   

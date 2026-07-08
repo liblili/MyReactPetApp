@@ -53,14 +53,20 @@ line-height: 1.5;
   
   }
 }
+.aboutsite{
+  @media (max-width: 768px){
+    font-size: small;
+  }
+}
+
 button{
   
   @media (max-width: 768px) {
 background-color: var(--primary);
 color: white;
 border: 1px white;
-margin:  0 10% ;
-width: 60%;
+margin:   10% ;
+width: 50%;
   }
 }
 .namofsite{
