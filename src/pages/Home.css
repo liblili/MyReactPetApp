@@ -42,12 +42,12 @@ line-height: 1.5;
   flex-direction: column;
   justify-content: center;
   @media (max-width: 768px) {
-    
+    margin-top: 10%;
     position: absolute;
     z-index: 1000;
     background: transparent;
     height: 50%;
-   font-size: larger;
+   
    line-height: 1.5;
    
   
@@ -60,7 +60,7 @@ background-color: var(--primary);
 color: white;
 border: 1px white;
 margin:  0 10% ;
-max-width: 100%;
+width: 100%;
   }
 }
 .namofsite{
