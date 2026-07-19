@@ -3,6 +3,7 @@ export interface Pet {
   id: number;
   name: string;
   type: "dog" | "cat" | "other";
+  sex: "male" | "female";
   breed: string;
   city: string;
   status: "lost" | "found" | "adoption";

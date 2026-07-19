@@ -12,7 +12,7 @@ function Home() {
         <div className="home">
           <div className="info-section">
             <h1 className="namofsite">Animal Search</h1>
-            <p className="aboutsite">
+            <p>
               View listings of lost and found pets. Create a listing. Return a
               pet.
             </p>

@@ -1,3 +1,6 @@
+.burger {
+  display: none;
+}
 .menu {
   position: absolute; 
  max-width: 100%;
@@ -8,6 +11,10 @@
   justify-content: space-between; 
   align-items: center; 
   padding: 20px 40px;
+   @media (max-width: 768px) {
+    margin: 0;
+    gap: 5px;
+   }
 
 }
 
@@ -25,4 +32,39 @@
   text-decoration: none;
   color: var(--black);
   font-weight: 500;
+}
+
+
+
+@media (max-width: 768px) {
+  .menu {
+    
+    padding: 20px 16px;
+  }
+  .burger {
+    color: var(--black);
+    display: block;
+    font-size: 30px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    z-index: 200;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    gap: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.15);
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
 }

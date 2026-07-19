@@ -1,12 +1,17 @@
 .pet-details {
     display: flex;
 
-    justify-content: center;
-    width: 400px;
+    justify-content: space-around;
+    gap: 20px;
+    width: 100%;
     margin: 20px;
-    background-color: aqua;
+    
 
 }
 .img-details img {
     width: 300px;
+}
+.description span{
+    font-weight: 700;
+    
 }
