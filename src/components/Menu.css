@@ -3,12 +3,11 @@
 }
 .menu {
   position: absolute; 
- max-width: 100%;
+  max-width: 100%;
   z-index: 100;
   background: transparent; 
-  
   display: flex;
-  justify-content: space-between; 
+  justify-content: space-around; 
   align-items: center; 
   padding: 20px 40px;
    @media (max-width: 768px) {
@@ -42,6 +41,7 @@
     padding: 20px 16px;
   }
   .burger {
+    max-width: 60px;
     color: var(--black);
     display: block;
     font-size: 30px;

@@ -67,7 +67,8 @@ background-color: var(--primary);
 color: white;
 border: 1px white;
 margin:   10% 10% ;
-width: 40%;
+max-width: 100%;
+
   }
 }
 .namofsite{
