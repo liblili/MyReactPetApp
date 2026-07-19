@@ -19,11 +19,14 @@ function Menu() {
           About us
         </Link>
         <Link to="/listing" onClick={() => setIsOpen(false)}>
-        Listings</Link>
-        <Link to="/about" onClick={() => setIsOpen(false)} >
-          Create Listing</Link>
-        <Link to="/contacts" onClick={() =>setIsOpen(false)} >
-          Sign Up</Link>
+          Listings
+        </Link>
+        <Link to="/about" onClick={() => setIsOpen(false)}>
+          Create Listing
+        </Link>
+        <Link to="/contacts" onClick={() => setIsOpen(false)}>
+          Sign Up
+        </Link>
       </div>
     </nav>
   );

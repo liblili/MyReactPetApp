@@ -2,13 +2,17 @@ import PetList from "../components/PetList";
 import { pets } from "../data/pets";
 import "./Home.css";
 
-
+import { useNavigate } from "react-router-dom";
 
 function Home() {
+    const navigate = useNavigate();
+
+    const handleClick = () => {
+      navigate("/Listing");
+    };
   return (
-    <div >
+    <div>
       <section className="hero">
-        
         <div className="home">
           <div className="info-section">
             <h1 className="namofsite">Animal Search</h1>
@@ -16,8 +20,8 @@ function Home() {
               View listings of lost and found pets. Create a listing. Return a
               pet.
             </p>
-
-            <button>Go to Listings</button>
+            <button onClick={handleClick}>Go to Listings</button>;
+            
           </div>
           <div className="image-section"></div>
         </div>
