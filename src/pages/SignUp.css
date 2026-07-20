@@ -1,3 +1,8 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 .signup{
     margin-top: 10%;
 
@@ -13,11 +18,16 @@
   flex-direction: column;
   gap: 10px;
   width: 300px;
-  justify-content: left;
+ 
 
 }
 .form label {
   text-align: left;
+}
+.form input,
+.form button {
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .form input
@@ -29,9 +39,29 @@
     margin-top: 20px;
     background-color: var(--primary);
     color: var(--white);
-    border: 0cap;
+    border: none;
     font-size: large;
     display: flex;
-    justify-content: center; /* по горизонтали */
+    justify-content: center; 
     align-items: center;
+}
+
+@media (max-width: 768px) {
+  .containerform {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .form {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .form button {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    appearance: none;
+    -webkit-appearance: none;
+  }
 }
