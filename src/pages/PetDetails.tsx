@@ -14,7 +14,7 @@ function PetDetails() {
 
   return (
     <div>
-      <section className="formen"></section>;
+      <section className="formen"></section>
       <div className="pet-details">
         <div className="img-details">
           <img src={pet.image} alt={pet.name} />

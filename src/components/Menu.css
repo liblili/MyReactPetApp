@@ -7,7 +7,7 @@
   z-index: 100;
   background: transparent; 
   display: flex;
-  justify-content: space-around; 
+  justify-content: space-between; 
   align-items: center; 
   padding: 20px 40px;
    @media (max-width: 768px) {
@@ -74,5 +74,26 @@
 
   .nav-links.active {
     display: flex;
+  }
+}
+
+
+@media (max-width: 768px) {
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 15px 20px;
+  }
+
+  .logo {
+    margin-right: auto;
+  }
+
+  .burger {
+    display: block;
+    margin-left: auto;
+    display: block;
   }
 }
