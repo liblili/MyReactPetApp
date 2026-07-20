@@ -38,7 +38,8 @@
 @media (max-width: 768px) {
   .menu {
    z-index: 10000;
-  
+  display: flex;
+  justify-content: space-between;
   
     padding: 20px 16px;
   }

@@ -9,6 +9,7 @@ import Contacts from "./pages/Contacts";
 
 import Listing from "./pages/Listing";
 import PetDetails from "./pages/PetDetails";
+import SignUp from "./pages/SignUp";
 
 
 
@@ -24,6 +25,7 @@ function App() {
             <Route path="/contacts" element={<Contacts />} />
             <Route path="/pet/:id" element={<PetDetails />} />
             <Route path="/listing" element={<Listing />} />
+            <Route path="/signup" element={<SignUp />} />
           </Routes>
         </main>
         <Footer />

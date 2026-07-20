@@ -21,10 +21,10 @@ function Menu() {
         <Link to="/listing" onClick={() => setIsOpen(false)}>
           Listings
         </Link>
-        <Link to="/about" onClick={() => setIsOpen(false)}>
+        <Link to="/signup" onClick={() => setIsOpen(false)}>
           Create Listing
         </Link>
-        <Link to="/contacts" onClick={() => setIsOpen(false)}>
+        <Link to="/signup" onClick={() => setIsOpen(false)}>
           Sign Up
         </Link>
       </div>
