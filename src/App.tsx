@@ -15,18 +15,19 @@ import PetDetails from "./pages/PetDetails";
 function App() {
   return (
     <BrowserRouter>
-      <Menu />
-
-      <Routes>
-       
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contacts" element={<Contacts />} />
-        <Route path="/pet/:id" element={<PetDetails />} />
-        <Route path="/listing" element={<Listing />} />
-      </Routes>
-
-      <Footer />
+      <div className="page">
+        <Menu />
+        <main className="content">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/contacts" element={<Contacts />} />
+            <Route path="/pet/:id" element={<PetDetails />} />
+            <Route path="/listing" element={<Listing />} />
+          </Routes>
+        </main>
+        <Footer />
+      </div>
     </BrowserRouter>
   );
  
