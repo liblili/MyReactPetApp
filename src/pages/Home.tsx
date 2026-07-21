@@ -20,7 +20,7 @@ function Home() {
               View listings of lost and found pets. Create a listing. Return a
               pet.
             </p>
-            <button onClick={handleClick}>Go to Listings</button>
+            <button className="buttonhome" onClick={handleClick}>Go to Listings</button>
             
           </div>
           <div className="image-section"></div>

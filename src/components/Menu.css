@@ -92,8 +92,9 @@
   }
 
   .burger {
+    margin-top: 5px;
     display: block;
     margin-left: auto;
     display: block;
   }
-}
+} 

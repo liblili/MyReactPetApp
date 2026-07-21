@@ -85,9 +85,11 @@ max-width: 100%;
   margin: 20px;
 }
 
-button {
+.buttonhome {
   height: 44px;
   width: 300px;
+  min-width: 90px;
+
 }
 .howitworks-section{
 
