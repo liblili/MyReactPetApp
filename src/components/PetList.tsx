@@ -8,10 +8,15 @@ type PetListProps = {
 
 function PetList({ pets }: PetListProps) {
   return (
-    <div className="pets-list">
-      {pets.map((pet) => (
-        <PetCard key={pet.id} pet={pet} />
-      ))}
+    <div>
+      <div>
+        <h1>All animals</h1>
+      </div>
+      <div className="pets-list">
+        {pets.map((pet) => (
+          <PetCard key={pet.id} pet={pet} />
+        ))}
+      </div>
     </div>
   );
 }

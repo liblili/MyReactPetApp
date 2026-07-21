@@ -4,7 +4,7 @@ function Listing() {
   return (
     <div>
       <section className="formen"></section>
-      <h1>All animals</h1>
+      
       <PetList pets={pets} />;
     </div>
   );
